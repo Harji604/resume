@@ -62,14 +62,14 @@ header .contact a:hover {
 section {
   margin-top: 40px;
   padding: 40px 20px;
-  background: linear-gradient(to bottom, #ffffff, #add8e6, #0000ff);
+  background: #add8e6;
   border-radius: 12px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
 
 section:hover {
-  background: linear-gradient(to top left, #ffffff, #f1f7fb);
+  background: #add8e6;
   transform: translateY(-5px);
 }
 
