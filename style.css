@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background: linear-gradient(to top right, #a2c2e4, #e0f7fa);
+  background: linear-gradient(to top right,  #a2c2e4, #e0f7fa);
   color: #333;
   padding-top: 60px;
   transition: all 0.3s ease;
@@ -19,7 +19,7 @@ body {
 }
 
 header {
-  background: linear-gradient(45deg, #ff6f91, #ffafcc);
+  background: linear-gradient(45deg,  #a2c2e4, #e0f7fa);
   color: #fff;
   padding: 60px 20px;
   text-align: center;
@@ -30,7 +30,7 @@ header {
 }
 
 header:hover {
-  background: linear-gradient(45deg, #ffafcc, #ff6f91);
+  background: linear-gradient(45deg,  #a2c2e4, #e0f7fa);
   transform: translateY(-10px);
 }
 
