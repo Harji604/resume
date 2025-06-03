@@ -145,11 +145,12 @@ section .section:hover {
   background-color: #f1f7fb;
 }
 
-.skills-bar-container {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  margin-top: 30px;
+.skills-bar .skill {
+  height: 100%;
+  background-color: #000; 
+  border-radius: 5px;
+  position: relative;
+  transition: width 1s ease;
 }
 
 .skills-bar {
