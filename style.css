@@ -6,9 +6,10 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background: #f3f4f6;
+  background: linear-gradient(to top right, #a2c2e4, #e0f7fa);
   color: #333;
   padding-top: 60px;
+  transition: all 0.3s ease;
 }
 
 .container {
@@ -18,17 +19,19 @@ body {
 }
 
 header {
-  background: #1e2a37;
+  background: linear-gradient(45deg, #ff6f91, #ffafcc);
   color: #fff;
-  padding: 50px 20px;
+  padding: 60px 20px;
   text-align: center;
-  border-bottom: 4px solid #00aaff;
+  border-bottom: 4px solid #ff6f91;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
 
 header:hover {
-  background: #161e28;
-  transform: translateY(-5px);
+  background: linear-gradient(45deg, #ffafcc, #ff6f91);
+  transform: translateY(-10px);
 }
 
 header h1 {
@@ -37,49 +40,54 @@ header h1 {
 }
 
 header p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
 }
 
 header .contact a {
-  color: #00aaff;
+  color: #fff;
   text-decoration: none;
   font-weight: bold;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
 }
 
 header .contact a:hover {
-  color: #fff;
+  color: #ff6f91;
   text-decoration: underline;
 }
 
 section {
   margin-top: 40px;
-  padding: 40px 0;
-  background-color: #f9fafb;
+  padding: 40px 20px;
+  background: linear-gradient(to top left, #f7f9fc, #fff);
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
 
 section:hover {
-  background-color: #e1e6eb;
+  background: linear-gradient(to top left, #ffffff, #f1f7fb);
   transform: translateY(-5px);
 }
 
 h2 {
   text-align: center;
   font-size: 2.8rem;
-  margin-bottom: 20px;
-  color: #1e2a37;
+  color: #333;
+  margin-bottom: 30px;
 }
 
 h3 {
   font-size: 1.8rem;
-  color: #00aaff;
-  margin-bottom: 10px;
+  color: #ff6f91;
+  margin-bottom: 15px;
 }
 
 p {
   font-size: 1.1rem;
-  color: #444;
-  line-height: 1.6;
+  color: #555;
+  line-height: 1.7;
 }
 
 ul {
@@ -93,47 +101,46 @@ ul li {
 }
 
 ul li strong {
-  color: #00aaff;
+  color: #ff6f91;
 }
 
 .text-box {
   background: #fff;
-  border: 2px solid #ddd;
+  border: 2px solid #ffafcc;
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
 }
 
 .text-box:hover {
   transform: translateY(-5px);
-  border-color: #00aaff;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  border-color: #ff6f91;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
 .text-box h3 {
-  color: #1e2a37;
+  color: #333;
   font-size: 1.5rem;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .text-box p {
-  font-size: 1rem;
   color: #555;
 }
 
 section .section {
   background: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 section .section:hover {
-  transform: translateY(-5px);
-  background-color: #f0f5f7;
+  transform: translateY(-10px);
+  background-color: #f1f7fb;
 }
 
 .skills-bar-container {
@@ -152,7 +159,7 @@ section .section:hover {
 
 .skills-bar .skill {
   height: 100%;
-  background-color: #00aaff;
+  background-color: #ff6f91;
   border-radius: 5px;
   position: relative;
   transition: width 1s ease;
@@ -166,40 +173,40 @@ section .section:hover {
   background: #fff;
   padding: 30px;
   margin-top: 40px;
-  border-radius: 8px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease-in-out;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 
 .additional-section:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
 .additional-section h3 {
-  color: #1e2a37;
+  color: #333;
   font-size: 2rem;
   margin-bottom: 20px;
 }
 
 .additional-section p {
-  font-size: 1.1rem;
-  color: #444;
+  color: #555;
   line-height: 1.6;
 }
 
 footer {
-  background: #1e2a37;
+  background: linear-gradient(45deg, #ff6f91, #1e2a37);
   color: #fff;
   text-align: center;
   padding: 40px 20px;
   margin-top: 60px;
-  border-top: 4px solid #00aaff;
+  border-top: 4px solid #ff6f91;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
 
 footer:hover {
-  background: #161e28;
+  background: linear-gradient(45deg, #1e2a37, #ff6f91);
   transform: translateY(-5px);
 }
 
@@ -208,12 +215,13 @@ footer p {
 }
 
 footer a {
-  color: #00aaff;
+  color: #fff;
   text-decoration: none;
   font-weight: bold;
+  transition: all 0.3s ease;
 }
 
 footer a:hover {
-  color: #fff;
+  color: #ff6f91;
   text-decoration: underline;
 }
