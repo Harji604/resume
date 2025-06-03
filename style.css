@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background: linear-gradient(to top right,  #a2c2e4, #e0f7fa);
+  background: linear-gradient(to bottom, #ffffff, #add8e6, #0000ff);
   color: #333;
   padding-top: 60px;
   transition: all 0.3s ease;
@@ -19,7 +19,7 @@ body {
 }
 
 header {
-  background: linear-gradient(45deg,  #a2c2e4, #e0f7fa);
+  background: linear-gradient(to bottom, #ffffff, #add8e6, #0000ff);
   color: #fff;
   padding: 60px 20px;
   text-align: center;
@@ -30,7 +30,7 @@ header {
 }
 
 header:hover {
-  background: linear-gradient(45deg,  #a2c2e4, #e0f7fa);
+  background: linear-gradient(to bottom, #ffffff, #add8e6, #0000ff);
   transform: translateY(-10px);
 }
 
@@ -62,7 +62,7 @@ header .contact a:hover {
 section {
   margin-top: 40px;
   padding: 40px 20px;
-  background: linear-gradient(to top left, #f7f9fc, #fff);
+  background: linear-gradient(to bottom, #ffffff, #add8e6, #0000ff);
   border-radius: 12px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
